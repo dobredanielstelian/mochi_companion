@@ -1762,12 +1762,6 @@
 		(uuid "32132ce7-3c9a-4b26-b9b1-9685305c2b46")
 	)
 	(junction
-		(at 81.28 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32f4a046-ab40-4fc1-a4aa-9083b2cac41f")
-	)
-	(junction
 		(at 153.67 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1810,16 +1804,16 @@
 		(uuid "a0ba84b0-ddfb-41be-93de-55d3e8e93b7b")
 	)
 	(junction
+		(at 81.28 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab172279-bcae-4d42-88e4-4adc585e4b52")
+	)
+	(junction
 		(at 153.67 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac354ece-77ec-48e9-8966-d1f3a3bc1319")
-	)
-	(junction
-		(at 81.28 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c32a92fe-332c-4b41-915c-31fd390cb46b")
 	)
 	(junction
 		(at 142.24 69.85)
@@ -1990,16 +1984,6 @@
 			(type default)
 		)
 		(uuid "36f82b1f-2480-42bb-80aa-bb6ba75f176f")
-	)
-	(wire
-		(pts
-			(xy 81.28 86.36) (xy 81.28 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ab70549-bf49-45e2-9bf2-b7870c1922d2")
 	)
 	(wire
 		(pts
@@ -2363,6 +2347,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 107.95) (xy 67.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6073edf-a017-4b1a-a3b4-4c94fc0fdcf3")
+	)
+	(wire
+		(pts
 			(xy 237.49 67.31) (xy 237.49 69.85)
 		)
 		(stroke
@@ -2390,6 +2384,16 @@
 			(type default)
 		)
 		(uuid "e53562dd-f4ff-417e-a648-9ad96bc0b078")
+	)
+	(wire
+		(pts
+			(xy 72.39 97.79) (xy 81.28 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0cdd61-84fa-4e38-8e2f-04566ea9f942")
 	)
 	(wire
 		(pts
@@ -2431,27 +2435,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "233277fc-6b5e-4205-b738-61d8693efe2c")
-		(property "Reference" "C16"
-			(at 146.05 74.9299 0)
+		(uuid "005b6233-0869-408d-a9a4-0e2198e82e3c")
+		(property "Reference" "C38"
+			(at 145.288 74.422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "100n"
-			(at 146.05 77.4699 0)
+			(at 145.288 75.692 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 143.2052 80.01 0)
 			(effects
 				(font
@@ -2469,7 +2472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 142.24 76.2 0)
 			(effects
 				(font
@@ -2478,16 +2481,121 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" "C0402"
+			(at 145.288 78.232 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Field6" "50V"
+			(at 145.288 76.962 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "50898eed-8c2b-4a85-abb6-5b0d01e00927")
+			(uuid "1bb0966d-871b-4391-9829-cbd6d2a17779")
 		)
 		(pin "2"
-			(uuid "f71236c6-6f82-4fe7-b6a8-625145f54686")
+			(uuid "2866832b-8929-4b28-af41-f2d0f83a34ef")
 		)
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C16")
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 81.28 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "261ac575-d30e-4951-a22b-d98e8324d51c")
+		(property "Reference" "C14"
+			(at 84.328 102.362 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 84.328 103.632 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 82.2452 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "C0402"
+			(at 84.328 106.172 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Field6" "50V"
+			(at 84.328 104.902 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a1871513-7b1f-4529-8b88-c6292a31d2ab")
+		)
+		(pin "2"
+			(uuid "2f87547f-2daf-4b2b-ab0f-c3499e4d2b11")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2553,6 +2661,84 @@
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 153.67 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "313d9d41-d241-4b95-a7b5-8786df76150d")
+		(property "Reference" "R14"
+			(at 155.194 111.76 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 155.194 113.03 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 155.448 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 153.67 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "R0402"
+			(at 155.194 114.3 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "eed9f323-3cf5-454f-b68c-1166eb113a95")
+		)
+		(pin "1"
+			(uuid "3c65d22d-13bb-4115-8d5b-5bc0065f00b2")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2770,6 +2956,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 177.8 74.93 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3c5c8fb4-90df-4816-8dce-16ec3736df7c")
+		(property "Reference" "R12"
+			(at 180.848 73.66 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 180.848 74.93 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 179.578 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "R0402"
+			(at 180.848 76.2 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "2"
+			(uuid "1737b1c2-93e8-4b07-98cf-0e9ec82dbb49")
+		)
+		(pin "1"
+			(uuid "29c9141b-d745-4027-9d15-0e388bc4185b")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 87.63 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3cae00cc-b5a2-4702-8899-41427fd31f12")
+		(property "Reference" "L3"
+			(at 85.852 93.726 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150n"
+			(at 85.852 94.996 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "L0402"
+			(at 85.852 96.266 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "7e2331b0-6650-4dc5-8be9-047fb6e3e858")
+		)
+		(pin "2"
+			(uuid "8c652306-0918-4f1f-a0d5-5bacbf580314")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 224.79 80.01 0)
 		(unit 1)
@@ -2842,27 +3184,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40d44867-c977-4705-a04e-039fa9efcd08")
+		(uuid "45ccca46-3ff6-4739-9983-22451f622232")
 		(property "Reference" "C17"
-			(at 215.9 74.9299 0)
+			(at 215.138 74.422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 215.9 77.4699 0)
+		(property "Value" "4u7"
+			(at 215.138 75.692 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 213.0552 80.01 0)
 			(effects
 				(font
@@ -2880,7 +3221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 212.09 76.2 0)
 			(effects
 				(font
@@ -2889,16 +3230,112 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" "C0402"
+			(at 215.138 78.232 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Field6" "16V"
+			(at 215.138 76.962 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "014dd33c-2999-4179-969e-8d9d850cbd7d")
+			(uuid "fb5fde9a-16cd-44c6-b46e-f7c18147cf5f")
 		)
 		(pin "2"
-			(uuid "0d826eda-8025-4b26-9a5f-73be677b7d9e")
+			(uuid "f2346f9e-5194-49d3-af60-32f34a0fe4e9")
 		)
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 144.78 123.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "52748c68-62f0-41a6-9b97-8fe0d13ce8e4")
+		(property "Reference" "D1"
+			(at 141.732 123.952 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 141.732 122.936 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "D0402"
+			(at 141.732 121.92 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "754a0463-0b78-4178-a460-9256c3e61d3e")
+		)
+		(pin "2"
+			(uuid "99868c3b-515b-4062-be01-15fbc92e7aab")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2912,27 +3349,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d216571-7a5b-41ae-b695-94f0e2bda637")
+		(uuid "54965601-e98d-42a5-a124-3daf9de566b7")
 		(property "Reference" "C19"
-			(at 228.6 74.9299 0)
+			(at 227.838 74.422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 228.6 77.4699 0)
+		(property "Value" "4u7"
+			(at 227.838 75.692 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 225.7552 80.01 0)
 			(effects
 				(font
@@ -2950,7 +3386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 224.79 76.2 0)
 			(effects
 				(font
@@ -2959,11 +3395,29 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" "C0402"
+			(at 227.838 78.232 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Field6" "16V"
+			(at 227.838 76.962 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
 		(pin "1"
-			(uuid "1ad6a6c4-564e-42b6-8957-ed1f209158d0")
+			(uuid "7964e44f-6e93-4fc2-9b98-835f8a890950")
 		)
 		(pin "2"
-			(uuid "6b7bea36-299f-463c-b562-960d7c69eeac")
+			(uuid "7018122f-1a55-4a83-9e6c-056a52a95214")
 		)
 		(instances
 			(project "mochi_companios"
@@ -3042,34 +3496,120 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 153.67 85.09 0)
+		(lib_id "Device:C")
+		(at 87.63 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71dcb9d5-0059-4ee8-86f5-6a2394d14911")
+		(uuid "76ddd445-318d-46a8-93df-eddd222a2d42")
+		(property "Reference" "C15"
+			(at 88.138 79.502 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470P"
+			(at 88.9 80.772 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 91.44 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "C0402"
+			(at 89.662 83.312 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(property "Field6" "50V"
+			(at 88.138 82.042 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "949f25fb-2f3f-4335-90a7-2dbf76b0ddc2")
+		)
+		(pin "2"
+			(uuid "812e4a5c-a29f-4267-9ef3-ec60f0ffe5a0")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 153.67 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9607c1be-fe70-4746-b43f-401104f8af6e")
 		(property "Reference" "L5"
-			(at 154.94 83.82 0)
+			(at 154.432 83.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "47n"
-			(at 154.94 86.36 0)
+		(property "Value" "6.8n"
+			(at 154.432 85.09 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 153.67 85.09 0)
 			(effects
 				(font
@@ -3087,7 +3627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MLG0603S47NHT000"
+		(property "Description" ""
 			(at 153.67 85.09 0)
 			(effects
 				(font
@@ -3096,11 +3636,20 @@
 				(hide yes)
 			)
 		)
+		(property "Field5" "L0402"
+			(at 154.432 86.36 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
 		(pin "1"
-			(uuid "9377756d-961d-4a56-90c8-bf6bb794cd6e")
+			(uuid "83a54b24-2969-4301-be61-08f7258be916")
 		)
 		(pin "2"
-			(uuid "3487e065-b398-4ded-8f40-277fc0a20bb2")
+			(uuid "02e17b33-a1f5-4b9d-8063-22fb71b4c6d8")
 		)
 		(instances
 			(project "mochi_companios"
@@ -3113,33 +3662,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 199.39 76.2 0)
+		(at 199.39 76.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "87a59518-9946-4c87-8fd6-64edbf7cbf07")
-		(property "Reference" "R14"
-			(at 200.66 74.93 0)
+		(uuid "9a2448a6-b493-46d9-81a1-1a65db079f80")
+		(property "Reference" "R17"
+			(at 200.914 74.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 200.66 77.47 0)
+			(at 200.914 76.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 197.612 76.2 90)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
+			(at 201.168 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3156,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 199.39 76.2 0)
 			(effects
 				(font
@@ -3165,16 +3714,25 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "185aacb0-34a1-4deb-ab2e-e93c7eff06df")
+		(property "Field5" "R0402"
+			(at 200.914 77.47 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
 		)
 		(pin "2"
-			(uuid "d82db3e0-749e-448d-815a-1f036335c306")
+			(uuid "78763558-bd23-41f2-a9f7-c53bd23b8308")
+		)
+		(pin "1"
+			(uuid "df54017e-44dc-49fe-8157-ba4b8f748c85")
 		)
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3182,104 +3740,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "929d756b-5eff-46b5-a2ea-cca2f1efe29d")
-		(property "Reference" "C14"
-			(at 85.09 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33p"
-			(at 85.09 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 82.2452 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13526df6-126d-477b-8011-f66502e91aae")
-		)
-		(pin "2"
-			(uuid "0c86ccd0-4652-42b1-963c-28d184d2a67c")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 153.67 123.19 90)
+		(at 237.49 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "980b992c-683b-462a-851d-27590e49c6aa")
-		(property "Reference" "D2"
-			(at 157.48 123.5075 90)
+		(uuid "a23296e8-81b3-40f5-8710-c391e5b88ce9")
+		(property "Reference" "C20"
+			(at 240.538 74.422 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 157.48 126.0475 90)
+		(property "Value" "4u7"
+			(at 240.538 75.692 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 153.67 123.19 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 238.4552 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3775,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 123.19 0)
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,8 +3783,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 153.67 123.19 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3305,85 +3792,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ce44c63a-6d46-4327-a5ce-cb5681f4af9a")
-		)
-		(pin "2"
-			(uuid "ef41bec7-0775-4b97-b80d-d1a19a24e9c3")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a0e966ca-79db-4763-927a-fb1aecf1b4e1")
-		(property "Reference" "R13"
-			(at 176.53 68.58 0)
+		(property "Field5" "C0402"
+			(at 240.538 78.232 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
-			(at 177.8 76.2 90)
+		(property "Field6" "16V"
+			(at 240.538 76.962 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 176.022 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "29ab713f-a07d-4692-b697-ac7dc9981a5a")
+			(uuid "e429fa78-1764-413d-8ffa-89faaaaa8648")
 		)
 		(pin "2"
-			(uuid "7bd33b19-7fd0-4660-8529-45938c17d56d")
+			(uuid "0baed017-19a0-4661-b057-24e7d36fc575")
 		)
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "R13")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3520,75 +3956,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 144.78 123.19 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "aa92421d-5916-4744-917b-005d8edcb9cc")
-		(property "Reference" "D1"
-			(at 147.32 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED"
-			(at 147.32 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
-			(at 144.78 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ebc99e3-7f52-403f-a12e-397c055a5ad0")
-		)
-		(pin "2"
-			(uuid "282347a9-08f2-4400-a083-1ea1ffc0c1e9")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 237.49 80.01 0)
 		(unit 1)
@@ -3654,75 +4021,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 153.67 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6e8fe5c-cf23-4197-8a1b-efeff3dc8e13")
-		(property "Reference" "R12"
-			(at 154.94 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k"
-			(at 154.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 151.892 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e091d5ec-ccd4-48e4-9e52-179661bc8cd1")
-		)
-		(pin "2"
-			(uuid "67bc7a05-4a3e-4e27-8bd5-bfd2103a728c")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 93.98 104.14 0)
 		(unit 1)
@@ -3730,27 +4028,26 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "babec7a3-c056-49eb-99c0-e849196a8722")
-		(property "Reference" "C15"
-			(at 97.79 102.87 0)
+		(uuid "b950cb8a-5d1a-4a1e-bdee-9d52729f3ba7")
+		(property "Reference" "C16"
+			(at 97.028 102.362 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
 		(property "Value" "33p"
-			(at 97.79 105.41 0)
+			(at 97.028 103.632 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 94.9452 107.95 0)
 			(effects
 				(font
@@ -3768,7 +4065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 93.98 104.14 0)
 			(effects
 				(font
@@ -3777,86 +4074,34 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "d0a8b30d-54a6-4bb2-9cb0-e37564c95c9c")
-		)
-		(pin "2"
-			(uuid "b8604c58-1d31-44f9-bfe7-d46a04aa2e22")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 237.49 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfd5bf49-055f-448e-b9ac-7fbfc6c0668c")
-		(property "Reference" "C20"
-			(at 241.3 74.9299 0)
+		(property "Field5" "C0402"
+			(at 97.028 106.172 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "4.7u"
-			(at 241.3 77.4699 0)
+		(property "Field6" "50V"
+			(at 97.028 104.902 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 238.4552 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 237.49 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "f701d819-1e66-4ba2-977b-c4c633337359")
+			(uuid "7506d48e-96ad-4390-89b7-d12b2e8cac14")
 		)
 		(pin "2"
-			(uuid "6454da19-66ad-48fc-b8d2-4bfa91034c56")
+			(uuid "3f18958a-06b4-4264-8170-8e83324a614b")
 		)
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C20")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4055,22 +4300,24 @@
 		(dnp no)
 		(uuid "d82e346a-b055-436b-ad12-2965cce229a9")
 		(property "Reference" "L4"
-			(at 95.25 81.788 90)
+			(at 93.472 82.296 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "6.8n"
-			(at 95.25 84.328 90)
+			(at 93.472 83.566 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 95.25 86.36 0)
 			(effects
 				(font
@@ -4095,6 +4342,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Field5" "L0402"
+			(at 93.472 84.836 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -4245,34 +4501,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 60.96 97.79 0)
-		(mirror y)
+		(lib_id "Device:LED")
+		(at 153.67 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eb10bdfc-cee2-4d41-ba59-7098e0693eb5")
-		(property "Reference" "J3"
-			(at 61.2774 91.44 0)
+		(uuid "e76a764c-1b1c-48ed-aa02-fa088f0469e9")
+		(property "Reference" "D2"
+			(at 156.718 122.428 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
-			(at 61.2774 93.98 0)
+		(property "Value" "LED"
+			(at 156.718 123.444 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.762 0.762)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 60.96 97.79 0)
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+			(at 153.67 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4537,85 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 97.79 0)
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" "D0402"
+			(at 156.718 124.46 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "12e4b384-e8d9-4ae2-921d-a9a292a35c75")
+		)
+		(pin "2"
+			(uuid "cca4dd5b-0e19-4401-8a10-fecb0b79c389")
+		)
+		(instances
+			(project "mochi_companios"
+				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 67.31 97.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "eb10bdfc-cee2-4d41-ba59-7098e0693eb5")
+		(property "Reference" "J3"
+			(at 67.6274 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 67.6274 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
+			(at 67.31 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4624,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 60.96 97.79 0)
+			(at 67.31 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,76 +4648,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 87.63 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "f1246b72-d702-4dff-83e7-5518db24bc73")
-		(property "Reference" "L3"
-			(at 87.63 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150n"
-			(at 87.63 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b392aae3-76e0-4990-86c9-be7ba99a1cd7")
-		)
-		(pin "2"
-			(uuid "7ef947e2-70a9-46fd-a20d-701f49ccbe36")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 60.96 102.87 0)
+		(at 67.31 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4391,7 +4657,7 @@
 		(dnp no)
 		(uuid "f8121586-854d-43b5-b91e-fd487fd71ce9")
 		(property "Reference" "#PWR037"
-			(at 60.96 109.22 0)
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4400,7 +4666,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.96 106.68 0)
+			(at 67.31 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4408,7 +4674,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 102.87 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4417,7 +4683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 102.87 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4426,7 +4692,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 102.87 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,73 +4707,6 @@
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 87.63 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f88bb82e-27ac-4a90-852a-634cbd8298d8")
-		(property "Reference" "C18"
-			(at 87.63 80.264 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470p"
-			(at 87.63 82.804 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 91.44 85.3948 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "622112b1-bb4a-492c-a610-6d2d37e9919f")
-		)
-		(pin "2"
-			(uuid "37ace33c-1c9e-4382-90df-44e61587394f")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C18")
 					(unit 1)
 				)
 			)
