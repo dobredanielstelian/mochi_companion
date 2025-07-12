@@ -1828,12 +1828,6 @@
 		(uuid "cb839d4d-4a7c-4247-8840-062dd8d4a6bc")
 	)
 	(junction
-		(at 81.28 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf8f19ea-72fa-436b-a928-81e58f12cde0")
-	)
-	(junction
 		(at 199.39 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1964,16 +1958,6 @@
 			(type default)
 		)
 		(uuid "36c4b94f-88da-4ed2-be44-fe1f556fa3e0")
-	)
-	(wire
-		(pts
-			(xy 81.28 78.74) (xy 81.28 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d405be-3053-4aa1-8460-e53063ff4c1f")
 	)
 	(wire
 		(pts
@@ -2167,7 +2151,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 77.47) (xy 69.85 78.74)
+			(xy 69.85 77.47) (xy 69.85 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2204,16 +2188,6 @@
 			(type default)
 		)
 		(uuid "86fb911d-936b-4f71-b031-8f8c4bd34cb8")
-	)
-	(wire
-		(pts
-			(xy 81.28 77.47) (xy 81.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "928b50f0-b552-41bc-9821-e3e1db8827f9")
 	)
 	(wire
 		(pts
@@ -2287,23 +2261,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 81.28 78.74)
+			(xy 69.85 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bba17ac4-5bcc-4b83-887e-d1e55c14e1bd")
-	)
-	(wire
-		(pts
-			(xy 81.28 86.36) (xy 83.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd654019-bdb0-4fcd-92ba-30b685339d92")
 	)
 	(wire
 		(pts
@@ -2436,7 +2400,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "005b6233-0869-408d-a9a4-0e2198e82e3c")
-		(property "Reference" "C38"
+		(property "Reference" "C14"
 			(at 145.288 74.422 0)
 			(effects
 				(font
@@ -2508,7 +2472,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C38")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2487,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "261ac575-d30e-4951-a22b-d98e8324d51c")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 84.328 102.362 0)
 			(effects
 				(font
@@ -2595,7 +2559,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2610,7 +2574,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cc4fe3b-ead7-43c2-aea1-717386666422")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 142.24 86.36 0)
 			(effects
 				(font
@@ -2660,7 +2624,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2675,7 +2639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "313d9d41-d241-4b95-a7b5-8786df76150d")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 155.194 111.76 0)
 			(effects
 				(font
@@ -2738,7 +2702,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2820,7 +2784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3504b648-ceb2-4699-a82f-7cf4095e49d6")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 121.285 78.74 0)
 			(effects
 				(font
@@ -2854,7 +2818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " Low Noise Amplifiers (LNA) - RF"
+		(property "Description" "Low Noise Amplifiers (LNA) - RF"
 			(at 119.634 82.042 0)
 			(effects
 				(font
@@ -2884,7 +2848,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3006,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "3cae00cc-b5a2-4702-8899-41427fd31f12")
-		(property "Reference" "L3"
+		(property "Reference" "L1"
 			(at 85.852 93.726 90)
 			(effects
 				(font
@@ -3105,7 +3069,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "L3")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -3185,7 +3149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45ccca46-3ff6-4739-9983-22451f622232")
-		(property "Reference" "C17"
+		(property "Reference" "C15"
 			(at 215.138 74.422 0)
 			(effects
 				(font
@@ -3257,7 +3221,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C17")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -3272,7 +3236,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "52748c68-62f0-41a6-9b97-8fe0d13ce8e4")
-		(property "Reference" "D1"
+		(property "Reference" "D3"
 			(at 141.732 123.952 90)
 			(effects
 				(font
@@ -3335,7 +3299,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "D1")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -3350,7 +3314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54965601-e98d-42a5-a124-3daf9de566b7")
-		(property "Reference" "C19"
+		(property "Reference" "C16"
 			(at 227.838 74.422 0)
 			(effects
 				(font
@@ -3422,74 +3386,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna")
-		(at 81.28 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f95d0e7-f166-458e-978d-726176b71122")
-		(property "Reference" "AE2"
-			(at 83.82 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 83.82 74.295 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PrjLib:antenna_pad"
-			(at 81.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 81.28 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81cb1f4a-93b9-4376-bc23-3fc786f40335")
-		)
-		(instances
-			(project "mochi_companios"
-				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "AE2")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3504,7 +3401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76ddd445-318d-46a8-93df-eddd222a2d42")
-		(property "Reference" "C15"
+		(property "Reference" "C12"
 			(at 88.138 79.502 90)
 			(effects
 				(font
@@ -3576,7 +3473,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C15")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -3591,7 +3488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9607c1be-fe70-4746-b43f-401104f8af6e")
-		(property "Reference" "L5"
+		(property "Reference" "L3"
 			(at 154.432 83.82 0)
 			(effects
 				(font
@@ -3654,7 +3551,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "L5")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -3669,7 +3566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a2448a6-b493-46d9-81a1-1a65db079f80")
-		(property "Reference" "R17"
+		(property "Reference" "R13"
 			(at 200.914 74.93 0)
 			(effects
 				(font
@@ -3732,7 +3629,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "R17")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3644,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a23296e8-81b3-40f5-8710-c391e5b88ce9")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 240.538 74.422 0)
 			(effects
 				(font
@@ -3819,7 +3716,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3834,7 +3731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a27616e9-f66a-409a-90f3-7fa216a80925")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR028"
 			(at 110.49 99.06 0)
 			(effects
 				(font
@@ -3884,7 +3781,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "#PWR031")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3899,7 +3796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3b6d38d-ad01-491b-acc7-b9de804eec5e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 153.67 133.35 0)
 			(effects
 				(font
@@ -3949,7 +3846,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -4029,7 +3926,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "b950cb8a-5d1a-4a1e-bdee-9d52729f3ba7")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 97.028 102.362 0)
 			(effects
 				(font
@@ -4101,7 +3998,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4182,7 +4079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d14fd499-4f35-4243-9677-cda63609bb96")
-		(property "Reference" "U8"
+		(property "Reference" "U3"
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -4284,7 +4181,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "U8")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4299,7 +4196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d82e346a-b055-436b-ad12-2965cce229a9")
-		(property "Reference" "L4"
+		(property "Reference" "L2"
 			(at 93.472 82.296 90)
 			(effects
 				(font
@@ -4362,7 +4259,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "L4")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -4378,7 +4275,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee24521-679d-486d-b762-35c37aa23896")
-		(property "Reference" "AE3"
+		(property "Reference" "AE1"
 			(at 72.39 71.755 0)
 			(effects
 				(font
@@ -4429,7 +4326,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "AE3")
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -4509,7 +4406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e76a764c-1b1c-48ed-aa02-fa088f0469e9")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 156.718 122.428 90)
 			(effects
 				(font
@@ -4572,7 +4469,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4656,7 +4553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8121586-854d-43b5-b91e-fd487fd71ce9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR025"
 			(at 67.31 114.3 0)
 			(effects
 				(font
@@ -4706,7 +4603,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "#PWR037")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4721,7 +4618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc63cd15-9bfe-4f33-95aa-9e9ec6f72b6a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 144.78 123.19 0)
 			(effects
 				(font
@@ -4771,7 +4668,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/c53c7e95-cdb8-4a5f-949f-3e233653d611"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)

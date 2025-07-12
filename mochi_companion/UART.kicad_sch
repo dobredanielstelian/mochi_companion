@@ -2495,7 +2495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "034ca450-5f71-4169-a494-5726a22f10f6")
-		(property "Reference" "U6"
+		(property "Reference" "U8"
 			(at 97.79 80.01 0)
 			(effects
 				(font
@@ -2592,7 +2592,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "U6")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -2607,7 +2607,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "14f65d3d-d38d-41e7-9f05-3a92db8f18f4")
-		(property "Reference" "R42"
+		(property "Reference" "R32"
 			(at 208.28 90.932 90)
 			(effects
 				(font
@@ -2667,7 +2667,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R42")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -2682,7 +2682,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17e7dd0f-e915-475b-beac-ec37f0dbccb4")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 193.548 123.698 90)
 			(effects
 				(font
@@ -2745,7 +2745,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -2760,7 +2760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36dbf973-df51-4436-8312-da7dcbe6719b")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR073"
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -2810,7 +2810,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR093")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -2825,7 +2825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38fd3364-0b98-4a83-a269-361870e598c9")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR072"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -2875,7 +2875,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR092")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -2890,7 +2890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e62dd04-29cd-4471-8b73-696249f1b17e")
-		(property "Reference" "R44"
+		(property "Reference" "R33"
 			(at 208.28 98.552 90)
 			(effects
 				(font
@@ -2950,7 +2950,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R44")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -2965,7 +2965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e896bd8-d66a-4308-9c75-4b302856b04a")
-		(property "Reference" "C39"
+		(property "Reference" "C33"
 			(at 142.748 55.372 0)
 			(effects
 				(font
@@ -3037,7 +3037,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "C39")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -3052,7 +3052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "400c0b3d-150d-4a4c-920e-c278163de35d")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR069"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -3102,7 +3102,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR084")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3118,7 +3118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48a9e1ce-db24-4cf9-bb52-46bc59837589")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR070"
 			(at 154.94 82.55 0)
 			(effects
 				(font
@@ -3169,7 +3169,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR086")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -3184,7 +3184,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a3f8577-073d-4152-8267-6ea7fafb2fc5")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR065"
 			(at 105.41 144.78 0)
 			(effects
 				(font
@@ -3234,7 +3234,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR046")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3249,7 +3249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5634cf74-ac3a-4299-a417-806526ce512e")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR074"
 			(at 190.5 142.24 0)
 			(effects
 				(font
@@ -3299,7 +3299,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR099")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -3314,7 +3314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "652443fb-9208-4dd6-bedf-3ddbd572e7db")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR071"
 			(at 154.94 95.25 0)
 			(effects
 				(font
@@ -3364,7 +3364,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR090")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -3379,7 +3379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65e41fc7-3fb0-4245-be98-ec9e5b888757")
-		(property "Reference" "C18"
+		(property "Reference" "C32"
 			(at 100.838 130.302 0)
 			(effects
 				(font
@@ -3451,7 +3451,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "C18")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3466,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f2eeeb2-478b-4659-acf6-8f14ff55bac6")
-		(property "Reference" "C40"
+		(property "Reference" "C34"
 			(at 157.988 83.312 0)
 			(effects
 				(font
@@ -3538,7 +3538,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "C40")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3553,7 +3553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72080214-cff8-4259-bee7-79abd65cb946")
-		(property "Reference" "R41"
+		(property "Reference" "R30"
 			(at 134.62 102.362 90)
 			(effects
 				(font
@@ -3613,7 +3613,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R41")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3628,7 +3628,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a5f6d3b-da17-4628-b4bb-c250616b05d8")
-		(property "Reference" "R45"
+		(property "Reference" "R31"
 			(at 192.024 130.81 0)
 			(effects
 				(font
@@ -3691,7 +3691,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R45")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3706,7 +3706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86d350a2-7ae0-4bfc-94c5-9fbd32fa0e2d")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR066"
 			(at 124.46 129.54 0)
 			(effects
 				(font
@@ -3756,7 +3756,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR075")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3771,7 +3771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99b221a6-f505-419a-8adf-dbb05e46e1ed")
-		(property "Reference" "U6"
+		(property "Reference" "U9"
 			(at 180.086 121.666 0)
 			(effects
 				(font
@@ -3858,7 +3858,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "U6")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -3873,7 +3873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d94571d-b20a-4f00-a6ee-ccc2b378f2ca")
-		(property "Reference" "R33"
+		(property "Reference" "R29"
 			(at 134.62 94.742 90)
 			(effects
 				(font
@@ -3933,7 +3933,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R33")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -3948,7 +3948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4fd859e-1d67-4d66-af24-449661e1175d")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR067"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -3998,7 +3998,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR076")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -4013,7 +4013,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb725318-e7bb-49f8-95d3-0488c9779040")
-		(property "Reference" "R13"
+		(property "Reference" "R26"
 			(at 90.424 130.81 0)
 			(effects
 				(font
@@ -4076,7 +4076,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R13")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -4092,7 +4092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9e3671c-df05-4fbe-b574-0e3af4fa4232")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR068"
 			(at 139.7 49.53 0)
 			(effects
 				(font
@@ -4142,7 +4142,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR076")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4157,7 +4157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4714958-7324-4812-b95f-d7beef7b91eb")
-		(property "Reference" "R30"
+		(property "Reference" "R27"
 			(at 127.254 118.11 0)
 			(effects
 				(font
@@ -4217,7 +4217,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R30")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4232,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0e0f8ee-e87e-49ac-a0b8-77e2ceee927d")
-		(property "Reference" "R32"
+		(property "Reference" "R28"
 			(at 134.874 118.11 0)
 			(effects
 				(font
@@ -4292,7 +4292,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "R32")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -4307,7 +4307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7531c24-e0e3-45cc-ba1f-3b13dbcc4ca1")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR064"
 			(at 97.79 144.78 0)
 			(effects
 				(font
@@ -4357,7 +4357,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "#PWR045")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4372,7 +4372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa7d1a70-15ab-45b7-8e71-baed9d2a6cd4")
-		(property "Reference" "C41"
+		(property "Reference" "C35"
 			(at 168.148 83.312 0)
 			(effects
 				(font
@@ -4444,7 +4444,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "C41")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4459,7 +4459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd88da5b-27d5-4b10-9ba6-98ff2feec0a8")
-		(property "Reference" "D8"
+		(property "Reference" "D6"
 			(at 129.286 46.99 0)
 			(effects
 				(font
@@ -4513,7 +4513,7 @@
 		(instances
 			(project "mochi_companios"
 				(path "/4ca1c142-b31d-4c3e-804c-2439f9285e87/725fa696-e451-457e-80b3-b9a377ed2411"
-					(reference "D8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
